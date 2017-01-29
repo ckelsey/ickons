@@ -1,0 +1,32 @@
+@import "./colors.scss";
+
+body{
+	color: $color1;
+
+	.icon-item{
+		    margin: 14px 0px;
+	}
+
+	[i-c-kon]{
+		width: 35px;
+		display: inline-block;
+	    vertical-align: middle;
+	    margin-right: 7px;
+	}
+
+	label{
+		display: inline-block;
+	    vertical-align: middle;
+	    font-weight: bold;
+	}
+
+	code{
+		color: #686868;
+font-weight: normal;
+background: #fff;
+padding: 5px;
+box-sizing: border-box;
+font-size: 12px;
+vertical-align: top;
+	}
+}
