@@ -1,65 +1,66 @@
 # Ickons
 
-Video `type="'video'||'Video'"`
+Video ```type="'video'||'Video'"```
 
-Audio `type="'audio'||'Audio'"`
+Audio ```type="'audio'||'Audio'"```
 
-Bolt `type="'bolt'||'zip'||'g-zip'||'interactive'"`
+Bolt ```type="'bolt'||'zip'||'g-zip'||'interactive'"```
 
-Link `type="'link'||'url'||'external'"`
+Link ```type="'link'||'url'||'external'"```
 
-Block `type="'block'||'element'"`
+Block ```type="'block'||'element'"```
 
-View `type="'view'||'show'"`
+View ```type="'view'||'show'"```
 
-Edit `type="'edit'"`
+Edit ```type="'edit'"```
 
-Undo `type="'undo'"`
+Undo ```type="'undo'"```
 
-Redo `type="'redo'"`
+Redo ```type="'redo'"```
 
-History `type="'history'"`
+History ```type="'history'"```
 
-Copy `type="'copy'"`
+Copy ```type="'copy'"```
 
-Reset `type="'reset'"`
+Reset ```type="'reset'"```
 
-Save to disk `type="'save-disk'||'disk'"`
+Save to disk ```type="'save-disk'||'disk'"```
 
-Save `type="'save'"`
+Save ```type="'save'"```
 
-Close `type="'close'"`
+Close ```type="'close'"```
 
-Trash `type="'trash'"`
+Trash ```type="'trash'"```
 
-New `type="'new'"`
+New ```type="'new'"```
 
-Open `type="'open'"`
+Open ```type="'open'"```
 
-Folder `type="'folder'||'channel'"`
+Folder ```type="'folder'||'channel'"```
 
-File `type="'file'||'Document'||'document'"`
+File ```type="'file'||'Document'||'document'"```
 
-CSS `type="'css'"`
+CSS ```type="'css'"```
 
-Javascript `type="'js'"`
+Javascript ```type="'js'"```
 
-HTML `type="'html'"`
+HTML ```type="'html'"```
 
-Hierarchy `type="'tree'"`
+Hierarchy ```type="'tree'"```
 
-Info `type="'info'"`
+Info ```type="'info'"```
 
-Function `type="'function'"`
+Function ```type="'function'"```
 
-PDF `type="'pdf'"`
+PDF ```type="'pdf'"```
 
-MsDoc `type="'msdoc'"`
+MsDoc ```type="'msdoc'"```
 
-PPT `type="'ppt'"`
+PPT ```type="'ppt'"```
 
-XLS `type="'xls'"`
+XLS ```type="'xls'"```
 
-Image `type="'Image'||'image'||'bmp'||'png'||'jpeg'||'jpg'||'tiff'||'gif'"`
+Image ```type="'Image'||'image'||'bmp'||'png'||'jpeg'||'jpg'||'tiff'||'gif'"```
 
-Mediafly `type="'mediafly'"`
+
+Mediafly ```type="'mediafly'"```
