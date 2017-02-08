@@ -38,13 +38,36 @@
 [i-c-kon-arrow-left],
 [i-c-kon-arrow-right],
 [i-c-kon-eyedropper],
+[i-c-kon-scale],
+[i-c-kon-move],
+[i-c-kon-reorder],
+[i-c-kon-add-text],
+[i-c-kon-add-image],
 [i-c-kon-js] {
 	display: inline-block;
 	vertical-align: middle;
 
+	@keyframes ickon-init {
+		from {
+			width: 0%;
+			height: 0%;
+			opacity: 0;
+		}
+		to {
+			width: 100%;
+			height: 100%;
+			opacity: 1;
+		}
+	}
+
 	svg {
-		width: 100%;
-		height: 100%;
+		width: 0%;
+		height: 0%;
+		opacity: 0;
+		animation-name: ickon-init;
+		animation-duration: .3s;
+		animation-delay: .5s;
+		animation-fill-mode: forwards;
 
 		* {
 			fill: currentColor;
