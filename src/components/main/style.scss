@@ -43,34 +43,37 @@
 [i-c-kon-reorder],
 [i-c-kon-add-text],
 [i-c-kon-add-image],
+[i-c-kon-food],
+[i-c-kon-drink],
+[i-c-kon-exercise],
+[i-c-kon-drop],
+[i-c-kon-vial],
+[i-c-kon-chart],
 [i-c-kon-js] {
-	display: inline-block;
-	vertical-align: middle;
-
-	@keyframes ickon-init {
-		from {
-			width: 0%;
-			height: 0%;
-			opacity: 0;
-		}
-		to {
-			width: 100%;
-			height: 100%;
-			opacity: 1;
-		}
-	}
-
-	svg {
-		width: 0%;
-		height: 0%;
-		opacity: 0;
-		animation-name: ickon-init;
-		animation-duration: .3s;
-		animation-delay: .5s;
-		animation-fill-mode: forwards;
-
-		* {
-			fill: currentColor;
-		}
-	}
+    display: inline-block;
+    vertical-align: middle;
+    @keyframes ickon-init {
+        from {
+            width: 0%;
+            height: 0%;
+            opacity: 0;
+        }
+        to {
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+        }
+    }
+    svg {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        animation-name: ickon-init;
+        animation-duration: .3s;
+        animation-delay: .15s;
+        animation-fill-mode: forwards;
+        * {
+            fill: currentColor;
+        }
+    }
 }
