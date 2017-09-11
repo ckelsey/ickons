@@ -1,47 +1,17 @@
 {
-	"name": "ickons",
-	"version": "1.0.0",
-	"description": "",
-	"keywords": [],
-	"author": "Chris Kelsey",
-	"license": "MIT",
-	"dependencies": {
-		"bower": "^*",
-		"browser-sync": "^*",
-		"gulp": "^*",
-		"gulp-angular-embed-templates": "^*",
-		"gulp-autoprefixer": "^*",
-		"gulp-awspublish": "^*",
-		"gulp-clean-css": "^*",
-		"gulp-cloudfront-invalidate-aws-publish": "^*",
-		"gulp-compass": "^*",
-		"gulp-concat": "^*",
-		"gulp-jshint": "^*",
-		"gulp-livereload": "^*",
-		"gulp-ng-annotate": "^*",
-		"gulp-notify": "^*",
-		"gulp-plumber": "^*",
-		"gulp-rename": "^*",
-		"gulp-sourcemaps": "^*",
-		"gulp-to-markdown": "^*",
-		"gulp-uglify": "^*",
-		"jshint": "^*",
-		"q": "^*",
-		"run-sequence": "^*",
-		"gulp-load-plugins": "^*",
-		"gulp-flatmap": "^*",
-		"gulp-sass": "^*"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"bower": "gulp bower",
-		"postinstall": "gulp install && bower install && gulp"
-	},
-	"bower": {
-		"angular": "latest",
-		"angular-loader": "latest",
-		"angular-resource": "latest",
-		"angular-route": "latest",
-		"angular-sanitize": "latest"
-	}
+  "name": "ickons",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "angular-route": "^1.6.6"
+  },
+  "devDependencies": {
+    "jasmine-reporters": "2.2.1",
+    "jasmine-spec-reporter": "4.1.0"
+  }
 }

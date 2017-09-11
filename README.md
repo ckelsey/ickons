@@ -1,66 +1,15 @@
-# Ickons
+# New Project
 
-Video ```type="'video'||'Video'"```
+## Build system
+To build the project, use https://bitbucket.org/mediafly/mediafly-create-app
 
-Audio ```type="'audio'||'Audio'"```
+`npm install git+ssh://git@bitbucket.org/mediafly/mediafly-create-app.git -g`
 
-Bolt ```type="'bolt'||'zip'||'g-zip'||'interactive'"```
+You must be running node v6 or higher.
 
-Link ```type="'link'||'url'||'external'"```
+## To add a new page
+1. Add a route in `app/routes.js`
+2. Add html/js/less files to the place in `app` you want it
+3. Update `app/app.html` with a link to the new page
 
-Block ```type="'block'||'element'"```
-
-View ```type="'view'||'show'"```
-
-Edit ```type="'edit'"```
-
-Undo ```type="'undo'"```
-
-Redo ```type="'redo'"```
-
-History ```type="'history'"```
-
-Copy ```type="'copy'"```
-
-Reset ```type="'reset'"```
-
-Save to disk ```type="'save-disk'||'disk'"```
-
-Save ```type="'save'"```
-
-Close ```type="'close'"```
-
-Trash ```type="'trash'"```
-
-New ```type="'new'"```
-
-Open ```type="'open'"```
-
-Folder ```type="'folder'||'channel'"```
-
-File ```type="'file'||'Document'||'document'"```
-
-CSS ```type="'css'"```
-
-Javascript ```type="'js'"```
-
-HTML ```type="'html'"```
-
-Hierarchy ```type="'tree'"```
-
-Info ```type="'info'"```
-
-Function ```type="'function'"```
-
-PDF ```type="'pdf'"```
-
-MsDoc ```type="'msdoc'"```
-
-PPT ```type="'ppt'"```
-
-XLS ```type="'xls'"```
-
-Image ```type="'Image'||'image'||'bmp'||'png'||'jpeg'||'jpg'||'tiff'||'gif'"```
-
-
-Mediafly ```type="'mediafly'"```
+## Using ES2015 JavaScript features: Refer to the style guide: https://bitbucket.org/snippets/mediafly-team/aLoo9
