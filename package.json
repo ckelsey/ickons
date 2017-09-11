@@ -2,6 +2,7 @@
   "name": "ickons",
   "description": "",
   "version": "2.0.0",
+  "main": "./src/components/ickons.js",
   "engines": {
     "node": ">=6.0.0"
   },
