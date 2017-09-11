@@ -1,5 +1,3 @@
-'use strict';
-
 (function (root, factory) {
 	'use strict';
 	/* istanbul ignore next */
@@ -22,188 +20,188 @@
 	}
 
 }(this, function (angular) {
-	'use strict';
+		'use strict';
 
 	var module = angular.module('ickons', [])
 
-		.directive("iCKonAddImage", () => { return { restrict: "A", templateUrl: "./components/add-image.svg" } })
+		.directive("iCKonAddImage", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 49" viewBox="0 0 196.61 164.93"><path d="M184.61 0H12A12 12 0 0 0 0 12v80.81a52.56 52.56 0 0 1 89.93 1.78l51.73-50.09 36.67 30.49v51.34H96.72A52.23 52.23 0 0 1 93 141h91.6a12 12 0 0 0 12-12V12a12 12 0 0 0-11.99-12zM52.5 59.33A14.83 14.83 0 1 1 67.33 44.5 14.83 14.83 0 0 1 52.5 59.33z"/><path d="M81.68 107.44h-23.2v-23.2a5.34 5.34 0 0 0-5.32-5.32H34.84a5.34 5.34 0 0 0-5.32 5.32v23.2H6.32A5.34 5.34 0 0 0 1 112.76v18.32a5.34 5.34 0 0 0 5.32 5.32h23.2v23.2a5.34 5.34 0 0 0 5.32 5.32h18.32a5.34 5.34 0 0 0 5.32-5.32v-23.2h23.2a5.34 5.34 0 0 0 5.32-5.31v-18.33a5.34 5.34 0 0 0-5.32-5.32z"/></svg>' } })
 
-		.directive("iCKonAddText", () => { return { restrict: "A", templateUrl: "./components/add-text.svg" } })
+		.directive("iCKonAddText", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 48" viewBox="0 0 184.87 171.25"><path d="M75.28 110.34H53.63V88.69a5 5 0 0 0-5-5H31.57a5 5 0 0 0-5 5v21.65H5a5 5 0 0 0-5 5v17.1a5 5 0 0 0 5 5h21.61v21.57a5 5 0 0 0 5 5h17.1a5 5 0 0 0 5-5v-21.65h21.57a5 5 0 0 0 5-5v-17.1a5 5 0 0 0-5-4.92z"/><path d="M116.62 136.54q0 19 13.7 19a48.43 48.43 0 0 0 6.45-.63 49 49 0 0 1 6.45-.63 8.53 8.53 0 0 1 6 2.41 7.59 7.59 0 0 1 2.55 5.7q0 8.87-12.09 8.87h-1.61a11.85 11.85 0 0 0-1.88-.25l-13.12-1.8a128.24 128.24 0 0 0-16.93-1 141.69 141.69 0 0 0-18 1l-13.44 1.78a8.25 8.25 0 0 0-1.88.25h-1.88q-11.83 0-11.82-8.87 0-8.11 8.6-8.11a49.13 49.13 0 0 1 6.45.63 48.3 48.3 0 0 0 6.45.63q13.43 0 13.43-19V33.69q0-18-19.62-18h-8.32q-19.35 0-19.35 17.73 0 6.33.27 8.61l1.07 9.37a58.12 58.12 0 0 1 .27 6.33q0 16-10.48 16-9.94 0-9.94-11.65 0-3.29.54-11.4.81-12.16.81-15.45 0-6.33-.45-13.17Q28 8.61 28 10.64 28 0 38.19 0q3.75 0 17.44.76 1.34 0 22 1h30.58q5.37 0 28.71-.44 5.1 0 17.43-.66 11-.66 17.17-.66 13.41 0 13.41 10.39v.51q0 2.54-.67 9.37t-1.48 14.69v2.79q0 3.8.81 11.91 1.07 10.64 1.07 13.17-.06 10.38-10.54 10.38-10.21 0-10.21-12.72 0-4.58.81-13.61t.81-13.61q0-17.56-21.23-17.56h-7.52q-9.95 0-14.24 3.93t-4.84 13l-1.08 17.77z"/></svg>' } })
 
-		.directive("iCKonArrowLeft", () => { return { restrict: "A", templateUrl: "./components/arrow-left.svg" } })
+		.directive("iCKonArrowLeft", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 40" viewBox="0 0 123.41 198.57"><path d="M100.16 0h-4.68c-5.44.86-9.56 3.84-13.38 7.68-25.25 25.38-50.39 50.86-76 75.86-8.1 7.9-8.24 23.39 0 31.27 15.8 15.09 31 30.81 46.46 46.26q15.7 15.7 31.41 31.39c6.75 6.71 16.44 8.24 23.78 2.83s14.63-11.44 15.63-21.69v-1.55c-.66-6.45-4.15-11.22-8.64-15.66-18.3-18.1-36.44-36.35-54.64-54.55-2.64-2.64-2.64-2.65 0-5.27 18.13-18.14 36.2-36.35 54.45-54.38 4.69-4.63 8.36-9.57 8.84-16.36v-1C120.67 11.84 112.4 4.05 100.16 0z"/></svg>' } })
 
-		.directive("iCKonArrowRight", () => { return { restrict: "A", templateUrl: "./components/arrow-right.svg" } })
+		.directive("iCKonArrowRight", () => { return { restrict: "A", template:'<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 39" viewBox="0 0 123.41 198.57"><path d="M23.25 0h4.65c5.43.86 9.58 3.84 13.38 7.68 25.25 25.38 50.39 50.86 76 75.86 8.1 7.9 8.24 23.39 0 31.27-15.8 15.09-31 30.81-46.46 46.26q-15.71 15.7-31.42 31.41c-6.75 6.71-16.44 8.24-23.78 2.83S.99 183.87-.01 173.62v-1.55c.66-6.45 4.15-11.22 8.64-15.66 18.3-18.1 36.44-36.35 54.64-54.55 2.64-2.64 2.64-2.65 0-5.27-18.12-18.17-36.19-36.37-54.43-54.4C4.15 37.56.48 32.62 0 25.83v-1C2.74 11.84 11 4.05 23.25 0z" data-name="8vsA8e.tif"/></svg>' } })
 
-		.directive("iCKonAudio", () => { return { restrict: "A", templateUrl: "./components/audio.svg" } })
+		.directive("iCKonAudio", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 4" viewBox="0 0 193.09 167.42"><path d="M113.1 2.29l-61.77 47c-4.95 0-16.57 1-20.48 5H12a12 12 0 0 0-12 12v35a12 12 0 0 0 12 12h18.56c3.6 3.64 15.7 2.5 20.77 2.5l61.77 50c6 0 10.9-5.4 10.9-12V14.29c0-6.6-4.91-12-10.9-12zm39.9-2c-1.65.5-1.72 1.87-2.29 3.49a10.47 10.47 0 0 0-.4 5.81 11.36 11.36 0 0 0 3.15 5.47c17.08 16.22 28 41.26 28 69.37s-10.9 53-27.89 69.23a12.24 12.24 0 0 0-3.44 5.73 8.36 8.36 0 0 0 0 4.76 4.51 4.51 0 0 0 3 3c2.44.77 3.08-.1 5-1.8 21.13-18.43 34.86-48.26 34.86-81.94S179.33 20.07 158.3 1.64C156.65.1 155.22-.38 153 .29z"/><path d="M160.53 86.64c0 17.42-6 33.13-15.76 44.33-1.39 1.6-2.87 2.5-3.38 4.51a10.81 10.81 0 0 0 .61 4.72c.54 1.59.55 2.91 2.17 3.36s2.73.58 4-.72c13.69-13.71 22.41-34.3 22.41-57.33s-8.72-43.63-22.41-57.34c-1.48-1.48-1.61-1.74-3.6-1.19a4.65 4.65 0 0 0-3.16 3.11c-.58 1.64-1.77 3.89-1.32 5.57.55 2.07 2.17 3.9 3.64 5.51 10.33 11.27 16.8 27.47 16.8 45.47z"/><path d="M136.15 85.47a31.81 31.81 0 0 1-3 13.53 27.91 27.91 0 0 0-2.39 6.5c-.31 1.82.78 4.23 1.38 6 .71 2.07.7 3.73 2.82 4.27 2.72.69 3.94-.06 5.62-2.44a48.27 48.27 0 0 0 8.46-27.76 47.77 47.77 0 0 0-10-29.77c-1.51-1.89-1.66-1.76-3.93-1.16a4.86 4.86 0 0 0-3.63 3.44c-.65 1.84-2 4.44-1.6 6.36a25.78 25.78 0 0 0 2.77 6.35 31.64 31.64 0 0 1 3.5 14.68z"/></svg>' } })
 
-		.directive("iCKonBolt", () => { return { restrict: "A", templateUrl: "./components/bolt.svg" } })
+		.directive("iCKonBolt", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 93.99 198.14"><path d="M21.08 1a8.85 8.85 0 0 1 3-1h46.33s2.41.19 3 1-.14 2.5-.14 2.5L55.74 55.33l34.87-6s2.36 0 3.13 1-.62 2.89-.62 2.89L15.74 195.67s-3.26 3.18-4.67 2.33-.67-5.67-.67-5.67l30-99-37.54 8.25s-1.83.37-2.46-.25-.31-2.66-.31-2.66L19.47 3.22A11.78 11.78 0 0 1 21.08 1z"/></svg>' } })
 
-		.directive("iCKonBookmark", () => { return { restrict: "A", templateUrl: "./components/bookmark.svg" } })
+		.directive("iCKonBookmark", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 85" viewBox="0 0 169.54 194"><path d="M142.82 0H38.54C19.34 0 0 10.67 0 28v154c0 6.6 6 12 13.23 12 0 0 9.87.17 12.18-2 14.33-13.5 35.28-42.5 46.58-42.5s37.41 33.07 53.55 43.5c1.49 1 7.24 1 7.24 1 7.28 0 13.23-5.4 13.23-12V39h14.71c7.28 0 8.82.6 8.82-6v-5c0-16.25-12.52-28-26.72-28zm-15.44 151.28c0 4.8-.37 18.72-.37 18.72s-10.36-10-11.47-10.73c-11.94-7.58-34.58-31.62-42.94-31.62s-28.27 19.08-38.88 28.89C32.02 158.12 19.34 172 19.34 172v-20.72s-2.67-111.9 0-122.55C21.91 18.46 33.3 19 41.26 19h76.34c5.38 0 9.79 3.92 9.79 8.72z"/></svg>' } })
 
-		.directive("iCKonChart", () => { return { restrict: "A", templateUrl: "./components/chart.svg" } })
+		.directive("iCKonChart", () => { return { restrict: "A", template:'<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 52" viewBox="0 0 179.88 176.25"><rect width="26.25" height="72.12" x=".1" y="86.88" rx="7" ry="7"/><rect width="26.25" height="159" x="31.28" rx="7" ry="7"/><rect width="26.25" height="144.24" x="61.63" y="14.76" rx="7" ry="7"/><rect width="26.25" height="98.18" x="92.81" y="60.82" rx="7" ry="7"/><rect width="26.25" height="111.4" x="123.39" y="47.6" rx="7" ry="7"/><rect width="26.25" height="64.28" x="153.63" y="94.72" rx="7" ry="7"/><rect width="10.79" height="179.88" x="94.79" y="92.42" rx="5.4" ry="5.4" transform="rotate(90 100.81 171.48)"/></svg>' } })
 
-		.directive("iCKonChat", () => { return { restrict: "A", templateUrl: "./components/chat.svg" } })
+		.directive("iCKonChat", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 64" viewBox="0 0 194.33 180.6"><path d="M194.33 13.32v113.87c-4.09 9.73-11.38 13.47-21.91 13.33-28.71-.37-57.43-.08-86.14-.19a10.86 10.86 0 0 0-8.04 3.22c-12.37 11.58-24.88 23-37.34 34.52-1.66 1.48-3.18 3.22-5.66 2.26s-2.13-3.46-2.14-5.56c0-10.12-.08-20.24 0-30.36 0-2.91-1-4.2-4-4s-5.82 0-8.73 0c-11.06 0-16.37-3.64-20.45-14V14.08c4.07-10.3 9.4-14 20.43-14 50.67 0 101.35.15 152-.13 10.61-.01 17.89 3.66 21.98 13.37z"/></svg>' } })
 
-		.directive("iCKonChatOutline", () => { return { restrict: "A", templateUrl: "./components/chat-outline.svg" } })
+		.directive("iCKonChatOutline", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 64" viewBox="0 0 194.33 180.6"><path d="M172.69 20c.66 0 1.2 0 1.64.07v100.4H172.68c-13.56-.18-26.89-.2-37-.2H86.24a30.81 30.81 0 0 0-21.68 8.61q-5.82 5.45-11.73 10.92a23 23 0 0 0-6.34-12.74 23.38 23.38 0 0 0-16.81-6.76h-9.64V20.13h80.11c29.07 0 51.42-.05 72.45-.17h.13m0-20h-.24q-36.17.2-72.33.17H20.43c-11 0-16.35 3.65-20.43 14v112.3c4.08 10.32 9.39 13.95 20.45 14h5.36c1.12 0 2.25 0 3.37-.08h.47c2.63 0 3.52 1.31 3.49 4.06-.1 10.12-.05 20.24 0 30.36 0 2.1-.46 4.54 2.14 5.56a3.7 3.7 0 0 0 1.36.28c1.72 0 3-1.38 4.24-2.55 12.45-11.51 24.95-22.94 37.36-34.51a10.85 10.85 0 0 1 8-3.21H135.65c12.25 0 24.49 0 36.74.2h.55c10.23 0 17.34-3.77 21.36-13.33V13.32C190.24 3.68 183.04 0 172.66 0z"/></svg>' } })
 
-		.directive("iCKonCheckThick", () => { return { restrict: "A", templateUrl: "./components/check-thick.svg" } })
+		.directive("iCKonCheckThick", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.52 167.05"><defs><style>.ca07d65c-e767-4186-a7d1-eb23a6ed8989{fill:#231f20;}</style></defs><path d="M194.02 31.25L166.27 3.5a12 12 0 0 0-17 0L70.06 82.73 48.22 60.89a12 12 0 0 0-17 0L3.47 88.64a12 12 0 0 0 0 17l54.61 54.61a11.91 11.91 0 0 0 1.65 1.36l2 2a12 12 0 0 0 17 0L194.02 48.22a12 12 0 0 0 0-16.97z" class="ca07d65c-e767-4186-a7d1-eb23a6ed8989"/></svg>' } })
 
-		.directive("iCKonCheck", () => { return { restrict: "A", templateUrl: "./components/check.svg" } })
+		.directive("iCKonCheck", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 38" viewBox="0 0 196.89 147.97"><path d="M0 70.68c1.91-3.47 5.27-5.54 8-8.16 3.52-3.35 7.22-6.52 10.83-9.77s6.88-3.17 10.24.26q19.18 19.51 38.33 39c3.81 3.88 6.8 3.88 10.68 0q34.95-34.83 69.89-69.66c6.66-6.64 13.38-13.22 20-19.88a9.63 9.63 0 0 1 4.44-2.51h1.54a10.29 10.29 0 0 1 4.45 2.87c5.25 5.34 10.55 10.62 15.83 15.93 3.46 3.48 3.49 7 .06 10.37L77.95 145.43c-3.37 3.37-6.93 3.4-10.24.11C45.28 123.28 23.56 100.3 1.8 77.38A22.65 22.65 0 0 1 0 74.91z"/></svg>' } })
 
-		.directive("iCKonChild", () => { return { restrict: "A", templateUrl: "./components/child.svg" } })
+		// .directive("iCKonChild", () => { return { restrict: "A", template: "./components/child.svg" } })
 
-		.directive("iCKonCloseThin", () => { return { restrict: "A", templateUrl: "./components/close-thin.svg" } })
+		.directive("iCKonCloseThin", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" id="813fae63-b7da-4605-8cc6-d29788ab05f9" data-name="Layer 70" viewBox="0 0 166.27 166.27"><defs><style>.0c386ab7-d9dc-414a-9885-42400d221628{fill:#231f20;}</style></defs><path d="M109.29 83.13l55.53-55.53a5 5 0 0 0 0-7.07L145.74 1.46a5 5 0 0 0-7.07 0L83.14 56.99 27.61 1.46a5 5 0 0 0-7.07 0L1.46 20.53a5 5 0 0 0 0 7.07l55.53 55.53-55.53 55.54a5 5 0 0 0 0 7.07l19.08 19.07a5 5 0 0 0 7.07 0l55.53-55.53 55.53 55.53a5 5 0 0 0 7.07 0l19.07-19.07a5 5 0 0 0 0-7.07z" class="0c386ab7-d9dc-414a-9885-42400d221628"/></svg>' } })
 
-		.directive("iCKonClose", () => { return { restrict: "A", templateUrl: "./components/close.svg" } })
+		.directive("iCKonClose", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 35" viewBox="0 0 173.41 173.41"><path d="M123.7 3.5l-37 37-37-37a12 12 0 0 0-17 0L3.5 32.7a12 12 0 0 0 0 17l37 37-37 37a12 12 0 0 0 0 17l29.2 29.2a12 12 0 0 0 17 0l37-37 37 37a12 12 0 0 0 17 0l29.2-29.2a12 12 0 0 0 0-17l-37-37 37-37a12 12 0 0 0 0-17L140.7 3.5a12 12 0 0 0-17 0z"/></svg>' } })
 
-		.directive("iCKonClothing", () => { return { restrict: "A", templateUrl: "./components/clothing.svg" } })
+		// .directive("iCKonClothing", () => { return { restrict: "A", template: "./components/clothing.svg" } })
 
-		.directive("iCKonCoffee", () => { return { restrict: "A", templateUrl: "./components/coffee.svg" } })
+		// .directive("iCKonCoffee", () => { return { restrict: "A", template: "./components/coffee.svg" } })
 
-		.directive("iCKonController", () => { return { restrict: "A", templateUrl: "./components/controller.svg" } })
+		// .directive("iCKonController", () => { return { restrict: "A", template: "./components/controller.svg" } })
 
-		.directive("iCKonCopy", () => { return { restrict: "A", templateUrl: "./components/copy.svg" } })
+		// .directive("iCKonCopy", () => { return { restrict: "A", template: "./components/copy.svg" } })
 
-		.directive("iCKonCss", () => { return { restrict: "A", templateUrl: "./components/css.svg" } })
+		// .directive("iCKonCss", () => { return { restrict: "A", template: "./components/css.svg" } })
 
-		.directive("iCKonDrink", () => { return { restrict: "A", templateUrl: "./components/drink.svg" } })
+		// .directive("iCKonDrink", () => { return { restrict: "A", template: "./components/drink.svg" } })
 
-		.directive("iCKonDrinks", () => { return { restrict: "A", templateUrl: "./components/drinks.svg" } })
+		// .directive("iCKonDrinks", () => { return { restrict: "A", template: "./components/drinks.svg" } })
 
-		.directive("iCKonDrop", () => { return { restrict: "A", templateUrl: "./components/drop.svg" } })
+		// .directive("iCKonDrop", () => { return { restrict: "A", template: "./components/drop.svg" } })
 
-		.directive("iCKonEdit", () => { return { restrict: "A", templateUrl: "./components/edit.svg" } })
+		.directive("iCKonEdit", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 32" viewBox="0 0 193.1 193.1"><rect width="104.64" height="65.55" x="40.65" y="74.65" rx="12" ry="12" transform="rotate(-45 86.697 109.89)"/><rect width="35.57" height="65.55" x="130.53" y="19.31" rx="12" ry="12" transform="rotate(-45 142.034 54.547)"/><rect width="24.04" height="65.55" x="157.57" y="-1.96" rx="11.04" ry="11.04" transform="rotate(-45 163.304 33.277)"/><path d="M62.27 177.18L0 193.1l15.92-62.27a10.29 10.29 0 0 1 14.51 0l31.84 31.84a10.29 10.29 0 0 1 0 14.51z"/></svg>' } })
 
-		.directive("iCKonElement", () => { return { restrict: "A", templateUrl: "./components/element.svg" } })
+		// .directive("iCKonElement", () => { return { restrict: "A", template: "./components/element.svg" } })
 
-		.directive("iCKonExercise", () => { return { restrict: "A", templateUrl: "./components/exercise.svg" } })
+		// .directive("iCKonExercise", () => { return { restrict: "A", template: "./components/exercise.svg" } })
 
-		.directive("iCKonEyedropper", () => { return { restrict: "A", templateUrl: "./components/eyedropper.svg" } })
+		// .directive("iCKonEyedropper", () => { return { restrict: "A", template: "./components/eyedropper.svg" } })
 
-		.directive("iCKonFile", () => { return { restrict: "A", templateUrl: "./components/file.svg" } })
+		// .directive("iCKonFile", () => { return { restrict: "A", template: "./components/file.svg" } })
 
-		.directive("iCKonFilter", () => { return { restrict: "A", templateUrl: "./components/filter.svg" } })
+		// .directive("iCKonFilter", () => { return { restrict: "A", template: "./components/filter.svg" } })
 
-		.directive("iCKonFolder", () => { return { restrict: "A", templateUrl: "./components/folder.svg" } })
+		// .directive("iCKonFolder", () => { return { restrict: "A", template: "./components/folder.svg" } })
 
-		.directive("iCKonFood", () => { return { restrict: "A", templateUrl: "./components/food.svg" } })
+		// .directive("iCKonFood", () => { return { restrict: "A", template: "./components/food.svg" } })
 
-		.directive("iCKonFullscreen", () => { return { restrict: "A", templateUrl: "./components/fullscreen.svg" } })
+		.directive("iCKonFullscreen", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 59" viewBox="0 0 193.57 193.57"><path d="M69.2.04q.06 13.21.12 26.43c0 1.05-.49 1.49-1.48 1.5H30.66c-2.59 0-2.64 0-2.64 2.64v35.88c0 2.8 0 2.81-2.84 2.8L.04 69.16V1.6C.04.24.32-.04 1.68-.04Q35.42.08 69.2.04zM193.54 69.16q-13.21.06-26.43.12c-1.05 0-1.49-.49-1.5-1.48v-1.89V30.6c0-2.59 0-2.64-2.64-2.64h-35.91c-2.8 0-2.81 0-2.8-2.84q0-12.55.12-25.11h67.65c1.29 0 1.55.25 1.55 1.55q-.08 33.81-.04 67.6zM.04 124.38q13.21-.06 26.43-.12c1.05 0 1.49.49 1.5 1.48v37.2c0 2.59 0 2.64 2.64 2.64h35.91c2.8 0 2.81 0 2.8 2.84q0 12.55-.12 25.11H1.55c-1.29 0-1.55-.25-1.55-1.55q.08-33.82.04-67.6zM124.38 193.54q-.06-13.21-.12-26.43c0-1.05.49-1.49 1.48-1.5h37.2c2.59 0 2.64 0 2.64-2.64v-35.88c0-2.8 0-2.81 2.84-2.8l25.11.12v67.65c0 1.29-.25 1.55-1.55 1.55q-33.78-.11-67.6-.07z"/></svg>' } })
 
-		.directive("iCKonFullscreen2", () => { return { restrict: "A", templateUrl: "./components/fullscreen-2.svg" } })
+		.directive("iCKonFullscreen2", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 84" viewBox="0 0 184.77 184.83"><g data-name="erjs6G.tif"><path d="M34.51 184.58c-10 0-20-.12-30 .08-3.36.07-4.34-.94-4.32-4.31.14-20.19 0-40.38.07-60.58 0-1.21-.64-2.85.72-3.5 1.72-.82 2.5 1 3.45 2 6.09 6 12.29 11.9 18.08 18.19 3.16 3.43 5.27 3.91 8.66.18 5.87-6.45 12.38-12.31 18.4-18.64 2.81-3 4.83-3 7.51.11a77 77 0 0 0 9.27 9.22c4 3.26 3.06 5.61-.23 8.7-6.23 5.85-12 12.19-18.26 18-3.25 3-2.93 5 .13 7.87 6 5.59 11.7 11.45 17.4 17.33 1.29 1.33 4 2.41 3.1 4.56-.76 1.78-3.31.74-5 .75-9.69.07-19.33.03-28.98.04zM184.65 149.89c0 10-.11 20 .06 30 .06 3.35-.54 4.81-4.42 4.77-19.83-.21-39.66-.09-59.5-.15-1.49 0-3.65.87-4.29-1.17-.48-1.51 1.3-2.44 2.29-3.43 6.28-6.33 12.53-12.69 18.94-18.88 2.37-2.29 2.4-4 0-6.28-6.67-6.45-13.08-13.16-19.75-19.62-2.6-2.52-3.13-4.45-.12-7.11a125.51 125.51 0 0 0 10.42-10.4c2.47-2.75 4.31-2.43 6.71 0 6.34 6.52 13 12.78 19.21 19.38 2.75 2.91 4.63 3.12 7.48.08 6.23-6.62 12.78-12.95 19.24-19.35.82-.81 1.57-2.39 3.09-1.5 1.06.62.64 2 .64 3v30.57zM.25 33.88c0-9.82.13-19.64-.07-29.46C.09 1.09 1.09.06 4.47.08c20 .15 40 .07 60 .12 1.34 0 3.24-.68 3.88 1s-1.17 2.53-2.13 3.53c-5.88 6-11.59 12.09-17.82 17.66-3.94 3.52-3.42 5.76.15 9.05 6.28 5.79 12.06 12.12 18.25 18 2.79 2.65 2.72 4.62-.06 7.14a100.67 100.67 0 0 0-9.23 9.27c-3 3.57-5.39 3.82-8.74.17-5.65-6.16-12-11.7-17.59-17.89-3.37-3.72-5.5-3.28-8.66.18-5.54 6-11.43 11.66-17.32 17.42-1.2 1.17-2.16 3.62-4.19 2.73-1.68-.74-.73-3-.74-4.52-.07-10 0-20 0-30zM149.82.16c10 0 20 .11 30-.06 3.41-.06 4.88.84 4.85 4.56-.13 20.2 0 40.4 0 60.61 0 1.19.63 2.86-1 3.34-1.39.42-2.17-1.07-3-1.94-6.32-6.29-12.74-12.49-18.86-19-2.74-2.9-4.62-3.18-7.49-.13-6.11 6.49-12.63 12.59-18.82 19-2.53 2.62-4.5 3.09-7.15.15-3.28-3.65-6.8-7.1-10.41-10.43-2.64-2.44-2.46-4.31.06-6.74 6.55-6.32 12.81-12.94 19.39-19.22 2.76-2.63 2.76-4.44 0-7.07-6.47-6.13-12.7-12.52-19-18.87-.94-1-2.84-1.79-2.06-3.43s2.63-.77 4-.78c9.84-.02 19.66.01 29.49.01z"/></g></svg>' } })
 
-		.directive("iCKonFunction", () => { return { restrict: "A", templateUrl: "./components/function.svg" } })
+		// .directive("iCKonFunction", () => { return { restrict: "A", template: "./components/function.svg" } })
 
-		.directive("iCKonVr", () => { return { restrict: "A", templateUrl: "./components/vr.svg" } })
+		.directive("iCKonVr", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 86" viewBox="0 0 196.33 123.31"><path d="M194.33 14a12 12 0 0 0-12-12s-63.12-2-84.17-2-84.17 2-84.17 2a12 12 0 0 0-12 12S0 57.73 0 70.33c0 11.76 2 41 2 41a12 12 0 0 0 12 12h56.33s15.31-41.21 27.67-41c12.09.21 25.67 41 25.67 41h58.67a12 12 0 0 0 12-12s2-36.48 2-48.65S194.33 14 194.33 14zM46.67 86.66A28.33 28.33 0 1 1 75 58.33a28.33 28.33 0 0 1-28.33 28.33zm102 0A28.33 28.33 0 1 1 177 58.33a28.33 28.33 0 0 1-28.33 28.33z"/></svg>' } })
 
-		.directive("iCKonVrNvidia", () => { return { restrict: "A", templateUrl: "./components/vr_nvidia.svg" } })
+		.directive("iCKonVrNvidia", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" id="d0cde3ff-69f6-4da9-bca1-c9f55c653483" data-name="Layer 89" viewBox="0 0 192.67 115.59"><defs><style>.a1408e72-2ac4-42c0-af79-d05768ae3026{fill:#76b900;}</style></defs><path id="ab1411b6-2959-43b4-84ec-5dd51f0958e3" d="M96.33 0C28.88 0 0 58 0 58s28.89 57.59 96.33 57.59 96.33-57.62 96.33-57.62S163.76 0 96.33 0zm-.18 112.68a54.89 54.89 0 1 1 54.73-55v.16a54.8 54.8 0 0 1-54.72 54.89zm41.4-56.86V41.49a8.71 8.71 0 0 0-9.16-8.16h-33L81.37 69.44 66.74 33.32h-12L75.5 82.27h10.94l16.41-40.28H124a2.65 2.65 0 0 1 2.75 2.51v8.37a2.58 2.58 0 0 1-2.75 2.44h-18l19.31 26.88h11.49l-13.26-18.22H129a8.19 8.19 0 0 0 8.54-7.78q.01-.18.01-.37z" data-name="VR-Icon.svg" class="a1408e72-2ac4-42c0-af79-d05768ae3026"/></svg>' } })
 
-		.directive("iCKonBinoculars", () => { return { restrict: "A", templateUrl: "./components/binoculars.svg" } })
+		.directive("iCKonBinoculars", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 87" viewBox="0 0 193.67 141.33"><path d="M193.67 93.87v9.59c-.17.75-.38 1.5-.5 2.26a41 41 0 0 1-8.62 19.79c-10.7 13-24.55 17.94-41.05 15s-29.9-17-32.83-33.83c-.8-4.61-.57-9.24-.67-13.88s-3.12-10.76-8.75-11.43a35.76 35.76 0 0 0-6.47-.33c-3.83.24-7.23 1.3-9.15 5a15.31 15.31 0 0 0-2 7.23 72.18 72.18 0 0 1-.42 12.19c-3 18.34-16.79 32.62-35 35.39a41.75 41.75 0 0 1-45.56-26.93A98.65 98.65 0 0 1 0 103.45v-9.59c.18-.75.38-1.5.52-2.25A36 36 0 0 1 6.1 77.35c1.14-1.63 6-9.38 14.76-13.35a61.57 61.57 0 0 1 14.17-4.49c3.12-.61 7.38-.19 9.66-.19a56.9 56.9 0 0 0-12.5-2c-5.67-.17-13.36 2.65-13.36 2.65s10.95-16.7 17.29-26.14c4.36-6.49 9.94-10.8 17.61-12.21a30.75 30.75 0 0 1 16.46 1.19c7.57 2.83 14.11 6.78 15.67 15.7.06.34.15.76.57.84s.62-.29.84-.57c.82-1.06 1.63-2.12 2.46-3.18 4.12-5.22 10.21-5.32 14.48-.25.7.84 1.23 1.78 1.84 2.66.36.52.59 1.45 1.34 1.31s.65-1.07.79-1.7a13.94 13.94 0 0 1 1.18-4.3 18.42 18.42 0 0 1 5.18-5.87c9.19-6.63 19.21-8 29.91-4.47a20.54 20.54 0 0 1 10.14 7.07c4.71 6.32 9.08 12.89 13.58 19.36 2.91 4.19 6.71 9.58 6.71 9.58s-7.89-2.33-14.06-2.49c-7.1-.19-12.58 1.84-11.89 2.84.35.5 3.23-.29 7.6-.07 6.28.32 12.69 3 16.58 4.69 3.58 1.56 11.46 9.18 12 10 2.48 3.6 5.2 7 6.48 11.35.91 2.81 1.34 5.72 2.08 8.56zM73.3 98.7a30.59 30.59 0 1 0-30.62 30.53A30.6 30.6 0 0 0 73.3 98.7zm108.32-.83a29.4 29.4 0 1 0-29.54 29.36 29.45 29.45 0 0 0 29.54-29.36zm-84.8-30.3a10.87 10.87 0 0 0 7.23-2.45c2.12-1.83 2.12-4.12 0-5.92a11.29 11.29 0 0 0-14.75-.06c-2.25 1.82-2.21 4.33.07 6.13a11.64 11.64 0 0 0 7.45 2.29z"/><path d="M145 17.61c-12.32-3.13-23.79-1.6-34.09 6.15-.16-.29-.26-.4-.24-.47 1-3.51.13-6.9-.41-10.36-.68-4.35 1.63-7.57 5-10a14 14 0 0 1 12.9-2.26 8.51 8.51 0 0 1 6.2 8.3 2 2 0 0 0 1.6 2.22 20.52 20.52 0 0 1 8 4.79 2.63 2.63 0 0 1 1.04 1.63zm-96.27-.1c1.13-2.23 3.1-3.43 5.11-4.54a18.12 18.12 0 0 1 4.22-1.89 1.45 1.45 0 0 0 1.24-1.67c-.31-4.59 3.08-8.21 7.74-9.13 6.74-1.33 14 2.8 16 9.18a6.44 6.44 0 0 1 .06 4 15.29 15.29 0 0 0-.19 9.27c.1.32.32.75-.09 1s-.68-.16-.95-.37a35.54 35.54 0 0 0-11.42-5.68 37.65 37.65 0 0 0-12.21-1.44 39.8 39.8 0 0 0-9.51 1.27z"/></svg>' } })
 
-		.directive("iCKonGradient", () => { return { restrict: "A", templateUrl: "./components/gradient.svg" } })
+		// .directive("iCKonGradient", () => { return { restrict: "A", template: "./components/gradient.svg" } })
 
-		.directive("iCKonHeart", () => { return { restrict: "A", templateUrl: "./components/heart.svg" } })
+		.directive("iCKonHeart", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 63" viewBox="0 0 194.03 177.22"><path d="M.95 66.82a86.23 86.23 0 0 1 0-25.54C4.3 19.34 20.85 3.57 43.01.72a76.42 76.42 0 0 1 21 0A51.09 51.09 0 0 1 93.28 16.4c2.61 2.73 5 2.73 7.6 0A51.09 51.09 0 0 1 130.13.73a77.6 77.6 0 0 1 21 0c37.7 4.67 51.3 44.65 37.75 77.62-4.44 10.97-11.24 20.61-18.77 29.61-20.7 24.91-46.78 44.3-69.31 67.34-3.63 3.71-6.05 1.28-8.77-1.25-13.7-12.76-27.59-25.35-41.18-38.24C29.9 115.96 5.36 96.51.95 66.82z" data-name="i9ZrUR.tif"/></svg>' } })
 
-		.directive("iCKonHeartOutline", () => { return { restrict: "A", templateUrl: "./components/heart-outline.svg" } })
+		.directive("iCKonHeartOutline", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 63" viewBox="0 0 194.03 177.22"><path d="M53.95-.04v20a47.81 47.81 0 0 1 7.1.5 31.24 31.24 0 0 1 17.79 9.77c6.5 6.79 13.51 8.22 18.25 8.22s11.74-1.43 18.25-8.22a31.24 31.24 0 0 1 17.79-9.73 47.25 47.25 0 0 1 7-.49 70.25 70.25 0 0 1 8.57.57c9.24 1.15 16.16 5.55 20.57 13.08 5.93 10.16 6.37 24.37 1.14 37.09-3.14 7.64-8 15.18-15.68 24.45-11.55 13.9-25 26.06-39.31 38.93-6.15 5.54-12.42 11.2-18.61 17.08l-7.16-6.61c-8.26-7.62-16.8-15.49-25-23.3-2.48-2.35-5-4.7-7.47-7-17.25-16-33.54-31.1-36.41-50.44a66.64 66.64 0 0 1 0-19.58c2-12.93 11.49-22 24.83-23.74a66.44 66.44 0 0 1 8.4-.57V-.04m0 0a86.2 86.2 0 0 0-10.94.73C20.85 3.57 4.3 19.34.95 41.28a86.23 86.23 0 0 0 0 25.54c4.41 29.69 29 49.14 49.9 69 13.59 12.88 27.48 25.47 41.19 38.25 1.71 1.6 3.31 3.15 5.17 3.15a5.15 5.15 0 0 0 3.6-1.9c22.53-23 48.61-42.43 69.31-67.34 7.53-9.06 14.29-18.66 18.8-29.63 13.55-33 0-72.94-37.75-77.62a89.88 89.88 0 0 0-11-.72 67 67 0 0 0-10 .72 51.09 51.09 0 0 0-29.25 15.67 4.55 4.55 0 0 1-7.6 0A51.09 51.09 0 0 0 64.04.73a67.59 67.59 0 0 0-10.09-.77z" data-name="i9ZrUR.tif"/></svg>' } })
 
-		.directive("iCKonHierarchy", () => { return { restrict: "A", templateUrl: "./components/hierarchy.svg" } })
+		// .directive("iCKonHierarchy", () => { return { restrict: "A", template: "./components/hierarchy.svg" } })
 
-		.directive("iCKonHistory", () => { return { restrict: "A", templateUrl: "./components/history.svg" } })
+		// .directive("iCKonHistory", () => { return { restrict: "A", template: "./components/history.svg" } })
 
-		.directive("iCKonHome", () => { return { restrict: "A", templateUrl: "./components/home.svg" } })
+		// .directive("iCKonHome", () => { return { restrict: "A", template: "./components/home.svg" } })
 
-		.directive("iCKonHorn", () => { return { restrict: "A", templateUrl: "./components/horn.svg" } })
+		// .directive("iCKonHorn", () => { return { restrict: "A", template: "./components/horn.svg" } })
 
-		.directive("iCKonHtml", () => { return { restrict: "A", templateUrl: "./components/html.svg" } })
+		// .directive("iCKonHtml", () => { return { restrict: "A", template: "./components/html.svg" } })
 
-		.directive("iCKonImage", () => { return { restrict: "A", templateUrl: "./components/image.svg" } })
+		// .directive("iCKonImage", () => { return { restrict: "A", template: "./components/image.svg" } })
 
-		.directive("iCKonImageOutline", () => { return { restrict: "A", templateUrl: "./components/image-outline.svg" } })
+		// .directive("iCKonImageOutline", () => { return { restrict: "A", template: "./components/image-outline.svg" } })
 
-		.directive("iCKonInfo", () => { return { restrict: "A", templateUrl: "./components/info.svg" } })
+		// .directive("iCKonInfo", () => { return { restrict: "A", template: "./components/info.svg" } })
 
-		.directive("iCKonJs", () => { return { restrict: "A", templateUrl: "./components/js.svg" } })
+		// .directive("iCKonJs", () => { return { restrict: "A", template: "./components/js.svg" } })
 
-		.directive("iCKonLayers", () => { return { restrict: "A", templateUrl: "./components/layers.svg" } })
+		// .directive("iCKonLayers", () => { return { restrict: "A", template: "./components/layers.svg" } })
 
-		.directive("iCKonLink", () => { return { restrict: "A", templateUrl: "./components/link.svg" } })
+		// .directive("iCKonLink", () => { return { restrict: "A", template: "./components/link.svg" } })
 
-		.directive("iCKonLogout", () => { return { restrict: "A", templateUrl: "./components/logout.svg" } })
+		// .directive("iCKonLogout", () => { return { restrict: "A", template: "./components/logout.svg" } })
 
-		.directive("iCKonLoupe", () => { return { restrict: "A", templateUrl: "./components/loupe.svg" } })
+		// .directive("iCKonLoupe", () => { return { restrict: "A", template: "./components/loupe.svg" } })
 
-		.directive("iCKonMediafly", () => { return { restrict: "A", templateUrl: "./components/mediafly.svg" } })
+		// .directive("iCKonMediafly", () => { return { restrict: "A", template: "./components/mediafly.svg" } })
 
-		.directive("iCKonMinus", () => { return { restrict: "A", templateUrl: "./components/minus.svg" } })
+		// .directive("iCKonMinus", () => { return { restrict: "A", template: "./components/minus.svg" } })
 
-		.directive("iCKonMove", () => { return { restrict: "A", templateUrl: "./components/move.svg" } })
+		// .directive("iCKonMove", () => { return { restrict: "A", template: "./components/move.svg" } })
 
-		.directive("iCKonMsdoc", () => { return { restrict: "A", templateUrl: "./components/msdoc.svg" } })
+		// .directive("iCKonMsdoc", () => { return { restrict: "A", template: "./components/msdoc.svg" } })
 
-		.directive("iCKonNew", () => { return { restrict: "A", templateUrl: "./components/new.svg" } })
+		.directive("iCKonNew", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 30" viewBox="0 0 194 194"><path d="M182 64.33h-52.33V12a12 12 0 0 0-12-12H76.33a12 12 0 0 0-12 12v52.33H12a12 12 0 0 0-12 12v41.33a12 12 0 0 0 12 12h52.33V182a12 12 0 0 0 12 12h41.33a12 12 0 0 0 12-12v-52.33H182a12 12 0 0 0 12-12V76.33a12 12 0 0 0-12-12z"/></svg>' } })
 
-		.directive("iCKonOpen", () => { return { restrict: "A", templateUrl: "./components/open.svg" } })
+		// .directive("iCKonOpen", () => { return { restrict: "A", template: "./components/open.svg" } })
 
-		.directive("iCKonPacman", () => { return { restrict: "A", templateUrl: "./components/pacman.svg" } })
+		// .directive("iCKonPacman", () => { return { restrict: "A", template: "./components/pacman.svg" } })
 
-		.directive("iCKonPdf", () => { return { restrict: "A", templateUrl: "./components/pdf.svg" } })
+		// .directive("iCKonPdf", () => { return { restrict: "A", template: "./components/pdf.svg" } })
 
-		.directive("iCKonPlay", () => { return { restrict: "A", templateUrl: "./components/play.svg" } })
+		// .directive("iCKonPlay", () => { return { restrict: "A", template: "./components/play.svg" } })
 
-		.directive("iCKonPpt", () => { return { restrict: "A", templateUrl: "./components/ppt.svg" } })
+		// .directive("iCKonPpt", () => { return { restrict: "A", template: "./components/ppt.svg" } })
 
-		.directive("iCKonRedo", () => { return { restrict: "A", templateUrl: "./components/redo.svg" } })
+		// .directive("iCKonRedo", () => { return { restrict: "A", template: "./components/redo.svg" } })
 
-		.directive("iCKonReorder", () => { return { restrict: "A", templateUrl: "./components/reorder.svg" } })
+		// .directive("iCKonReorder", () => { return { restrict: "A", template: "./components/reorder.svg" } })
 
-		.directive("iCKonReset", () => { return { restrict: "A", templateUrl: "./components/reset.svg" } })
+		// .directive("iCKonReset", () => { return { restrict: "A", template: "./components/reset.svg" } })
 
-		.directive("iCKonSaveDisk", () => { return { restrict: "A", templateUrl: "./components/save-disk.svg" } })
+		// .directive("iCKonSaveDisk", () => { return { restrict: "A", template: "./components/save-disk.svg" } })
 
-		.directive("iCKonSave", () => { return { restrict: "A", templateUrl: "./components/save.svg" } })
+		// .directive("iCKonSave", () => { return { restrict: "A", template: "./components/save.svg" } })
 
-		.directive("iCKonScale", () => { return { restrict: "A", templateUrl: "./components/scale.svg" } })
+		// .directive("iCKonScale", () => { return { restrict: "A", template: "./components/scale.svg" } })
 
-		.directive("iCKonBank", () => { return { restrict: "A", templateUrl: "./components/bank.svg" } })
+		// .directive("iCKonBank", () => { return { restrict: "A", template: "./components/bank.svg" } })
 
-		.directive("iCKonCreditCard", () => { return { restrict: "A", templateUrl: "./components/credit-card.svg" } })
+		// .directive("iCKonCreditCard", () => { return { restrict: "A", template: "./components/credit-card.svg" } })
 
-		.directive("iCKonBasket", () => { return { restrict: "A", templateUrl: "./components/basket.svg" } })
+		// .directive("iCKonBasket", () => { return { restrict: "A", template: "./components/basket.svg" } })
 
-		.directive("iCKonBuilding", () => { return { restrict: "A", templateUrl: "./components/building.svg" } })
+		// .directive("iCKonBuilding", () => { return { restrict: "A", template: "./components/building.svg" } })
 
-		.directive("iCKonCar", () => { return { restrict: "A", templateUrl: "./components/car.svg" } })
+		// .directive("iCKonCar", () => { return { restrict: "A", template: "./components/car.svg" } })
 
-		.directive("iCKonPlane", () => { return { restrict: "A", templateUrl: "./components/plane.svg" } })
+		// .directive("iCKonPlane", () => { return { restrict: "A", template: "./components/plane.svg" } })
 
-		.directive("iCKonCogs", () => { return { restrict: "A", templateUrl: "./components/cogs.svg" } })
+		// .directive("iCKonCogs", () => { return { restrict: "A", template: "./components/cogs.svg" } })
 
-		.directive("iCKonShare", () => { return { restrict: "A", templateUrl: "./components/share.svg" } })
+		.directive("iCKonShare", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 62" viewBox="0 0 181.7 197.33"><path d="M147.49 0a34.23 34.23 0 0 0-33.8 39.45L66.82 66.51l8.29 14.36 45.11-26A34.2 34.2 0 1 0 147.49 0zM5.04 115.41a34.23 34.23 0 0 0 51.3 8.21l47.56 25.83 7.91-14.57-45.76-24.85a34.2 34.2 0 1 0-61 5.38zM175.8 179.95a34.23 34.23 0 0 0-17.72-48.84l-.5-54.12-16.58.15.48 52.08a34.2 34.2 0 1 0 34.31 50.73z"/></svg>' } })
 
-		.directive("iCKonShareOutline", () => { return { restrict: "A", templateUrl: "./components/share-outline.svg" } })
+		.directive("iCKonShareOutline", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 73" viewBox="0 0 196.46 195.16"><path d="M192.38 80.89c-7-8.77-13.87-17.59-20.79-26.39L135.76 8.85a26.87 26.87 0 0 0-10.63-7.83c-2.21-1.56-5.77-1.07-8.73-.21-4.55 1.32-6.59 4.94-7.1 9.59a46.61 46.61 0 0 0-.14 5.17v34.26c-.34 2.68-1.75 4.08-4.74 4.75-5.49 1.23-11 2.68-16.33 4.41-20.34 6.56-39.25 15.92-53.78 32.74-18.37 21.28-28.32 46.71-32.7 74.71C.42 174.06.46 181.73 0 190.04a38.34 38.34 0 0 1 0 5.12c1.55-.56 15.1-18.13 28.94-30.53 11.1-9.94 22.88-15.11 25.07-16.5 15.43-8 32.22-12.35 50.19-13.54 3.47-.23 5.26.68 5.72 3.58 0 2.67 1.49 38.76 6.66 40.57 3.57 1.25 7.39 1.38 9.87-.73 4.79-2.18 8.74-6.69 10.56-9q27.65-35.49 55.49-70.82c5.32-6.8 5.29-10.49-.12-17.3zm-168.05 67.8c1.23-4.28 2.77-8.45 4.27-12.65 13.4-37.62 41.75-52.27 77-62.27a155.26 155.26 0 0 1 17.3-4c4-.64 4.25-6.53 4.2-10.45-.13-10.38-.13-20.76-.1-31.14q24.33 31 48.68 62-24.34 30.88-48.5 61.92c0-7.79-.08-15.59 0-23.38.07-8.59 1.18-13.83-6.89-13.56-3.72.12-7.4.43-11 .88-32.16 1.26-60.79 11.37-84.96 32.65z"/></svg>' } })
 
-		.directive("iCKonSliders", () => { return { restrict: "A", templateUrl: "./components/sliders.svg" } })
+		// .directive("iCKonSliders", () => { return { restrict: "A", template: "./components/sliders.svg" } })
 
-		.directive("iCKonTarget", () => { return { restrict: "A", templateUrl: "./components/target.svg" } })
+		// .directive("iCKonTarget", () => { return { restrict: "A", template: "./components/target.svg" } })
 
-		.directive("iCKonThreeSixty", () => { return { restrict: "A", templateUrl: "./components/360.svg" } })
+		.directive("iCKonThreeSixty", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" id="26e587d7-28e8-41e4-9aed-687af110e552" data-name="Layer 72" viewBox="0 0 190.47 105.73"><defs><style>.cb528473-a4cc-4dd4-a52d-4a05ccaec986{fill:#231f20;}.7a1e1738-ed58-4c67-84a6-d974e744b9ef{font-size:63.7px;font-family:TrebuchetMS, Trebuchet MS;}.3b39fbb1-b086-4b51-b10e-2e1ba7070ce8{fill:#fff;}</style></defs><path d="M139.05 23.47c23.38 4.87 41.49 13.4 41.49 23.21 0 15.35-38.15 27.79-85.2 27.79s-85.2-12.44-85.2-27.79c0-9.3 17-17.45 39.41-22.42C20.2 29.88 0 40.85 0 55.04c0 21 42.64 38 95.24 38s95.24-17 95.24-38c-.01-14.88-20.66-26.22-51.43-31.57z" class="cb528473-a4cc-4dd4-a52d-4a05ccaec986"/><text class="7a1e1738-ed58-4c67-84a6-d974e744b9ef" transform="translate(43.81 54.62)">360</text><path d="M79.97 104.54c-5.77 3.21-8-.4-8-7V67.29c0-6.6 2.22-11.19 8-8 8.77 4.85 30.5 17 30.5 22.63 0 4.62-20.93 17.29-30.5 22.62z" class="3b39fbb1-b086-4b51-b10e-2e1ba7070ce8"/><path d="M75.97 104.54c-5.77 3.21-8-.4-8-7V67.29c0-6.6 2.22-11.19 8-8 8.77 4.85 30.5 17 30.5 22.63 0 4.62-20.93 17.29-30.5 22.62z" class="cb528473-a4cc-4dd4-a52d-4a05ccaec986"/></svg>' } })
 
-		.directive("iCKonThreeSixtyNvidia", () => { return { restrict: "A", templateUrl: "./components/360_2.svg" } })
+		.directive("iCKonThreeSixtyNvidia", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" id="48dba384-039e-4753-9f8d-e86550af922f" data-name="Layer 88" viewBox="0 0 186.99 186.99"><defs><style>.38a1d1ab-6ec1-4287-a4df-5e1ad8465b2c{opacity:0.3;}</style></defs><path d="M93.48 186.99a93.5 93.5 0 1 1 93.5-93.5 93.6 93.6 0 0 1-93.5 93.5zm0-182.42a88.92 88.92 0 1 0 88.92 88.92A89 89 0 0 0 93.48 4.58z"/><path d="M94.9 186.39c-27.6 0-50.06-41.55-50.06-92.62S67.3 1.14 94.9 1.14s50.06 41.55 50.06 92.63-22.48 92.62-50.06 92.62zm0-183c-26.34 0-47.77 40.52-47.77 90.33s21.43 90.33 47.77 90.33 47.77-40.52 47.77-90.33S121.24 3.43 94.9 3.43z"/><path d="M93.93 142.5c-50.37 0-91.34-22-91.34-49.11s41-49.11 91.34-49.11 91.34 22 91.34 49.11-40.97 49.11-91.34 49.11zm0-97.08c-49.74 0-90.2 21.52-90.2 48s40.46 48 90.2 48 90.2-21.52 90.2-48-40.46-48-90.2-48z"/><ellipse cx="93.93" cy="93.39" class="38a1d1ab-6ec1-4287-a4df-5e1ad8465b2c" rx="90.77" ry="48.54"/><path d="M77.48 109.02a9 9 0 0 1-6.26 2.25 9.21 9.21 0 0 1-6.32-2.31c-1.54-1.48-2.42-3.35-2.42-6.48v-2.31h5.82v2.52c0 2.25 1.32 3.35 2.91 3.35a2.63 2.63 0 0 0 2.09-1c.82-1 .93-3.35.93-5.77 0-2.64-.05-4.61-.88-5.71a2.55 2.55 0 0 0-2.2-1h-1.91v-4.87h1.92a2.36 2.36 0 0 0 1.87-.77c.88-1 .88-2.91.88-4.94s-.05-3.68-.77-4.61a2.3 2.3 0 0 0-1.92-.88c-1.48 0-2.64 1-2.64 3.13v2.75h-5.82v-2.36a8.36 8.36 0 0 1 2.42-6.48 8.48 8.48 0 0 1 6-2.25 8.22 8.22 0 0 1 6 2.2c1.76 1.76 2.53 4.28 2.53 8.13 0 2.64-.11 4.5-1 6.21a6.17 6.17 0 0 1-2.14 2.31 7.09 7.09 0 0 1 2.25 2.36c1 1.87 1.21 3.85 1.21 7.2.03 4.17-.08 6.91-2.55 9.33zm22.74-.88c-1.54 2.2-4.12 3.13-7 3.13-3.13 0-5.44-1.15-6.81-3.13-1.54-2.2-2-4.45-2-9.17a26.94 26.94 0 0 1 1.64-9.28l6.87-18h6l-6.44 15.85a4.11 4.11 0 0 1 2.42-.66 6.23 6.23 0 0 1 5.16 2.42c1.43 1.81 2 3.9 2 9.67.03 5.21-.58 7.36-1.84 9.17zm-4.84-15.45a2.55 2.55 0 0 0-2.09-1 2.66 2.66 0 0 0-2.14 1c-.93 1.21-.88 3.9-.88 6.26s-.05 4.89.88 6.15a2.66 2.66 0 0 0 2.14 1 2.48 2.48 0 0 0 2.09-1c.93-1.21.88-3.79.88-6.15s.06-5.09-.88-6.26zm26.1 16.27a8.93 8.93 0 0 1-6.21 2.31 9.06 9.06 0 0 1-6.26-2.31 8.22 8.22 0 0 1-2.47-6.48V80.07a8.22 8.22 0 0 1 2.47-6.48 9.06 9.06 0 0 1 6.26-2.31 8.93 8.93 0 0 1 6.21 2.31 8.22 8.22 0 0 1 2.47 6.48v22.41a8.23 8.23 0 0 1-2.47 6.48zm-3.3-29.11c0-2.25-1.26-3.35-2.86-3.35s-2.91 1.1-2.91 3.35v22.84c0 2.25 1.32 3.35 2.91 3.35s2.86-1.1 2.86-3.35z"/></svg>' } })
 
-		.directive("iCKonTrash", () => { return { restrict: "A", templateUrl: "./components/trash.svg" } })
+		.directive("iCKonTrash", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 16" viewBox="0 0 155.63 197"><path d="M132.01 197.02H23.64a31 31 0 0 1-1.05-4.76c-1.42-22.19-2.76-44.38-4.14-66.57-1.29-20.57-2.66-41.12-3.87-61.67-.19-3.27-1.44-4.77-4.77-4.7s-6.54-.13-9.81-.21V40.39c1.79-.1 3.59-.29 5.38-.29h144.86c1.79 0 3.59.19 5.38.29v18.72c-3.12.08-6.24.3-9.35.2-3.41-.11-5.05 1.09-5.26 4.76-.78 13.59-1.89 27.16-2.73 40.74-1.47 23.9-2.61 47.82-4.39 71.7-.51 6.82.35 13.82-1.88 20.51zm-26.79-27.63h-.41c0 1.31.08 2.63 0 3.94-.28 3.66 1.52 4.93 5 4.92s5.09-1.18 5.17-4.85c.13-6.22.6-12.44 1-18.65 1.21-18.64 2.47-37.27 3.68-55.91.73-11.28 1.35-22.57 2.15-33.85.28-3.94-1-5.64-5.22-5.63-8.65 0-8.66-.17-9.39 8.74-.16 2-.35 3.92-.39 5.89q-.8 47.68-1.62 95.39zm-56.16-47.28c0-6.06.11-12.12 0-18.18-.3-12.91.29-25.91-.84-38.85-.17-1.9.39-4.48-1.93-5.13-3.62-1-7.68-1.47-11 .23-2.71 1.38-1.36 4.77-1.21 7.28.82 13.57 1.82 27.14 2.67 40.71q2.06 32.87 4 65.75c.16 2.83 1.34 4.1 4.19 4.28 4 .25 6.25-.85 6-5.43-1.08-16.87-1.08-33.75-1.88-50.66zm34.66-3.38c1.43-18.15-.06-36.38 1.47-54.53.14-1.62.4-3.73-1.53-4.25-3.81-1-8-1.37-11.58 0-3.29 1.29-1.37 4.91-1.4 7.53 0 2.13.24 4.25.28 6.38l1.34 82.58c.1 5.73.58 11.45.72 17.19.08 3.41 1.78 4.5 5 4.53 4.32 0 4.45-2.71 4.64-5.89 1.03-17.81.55-35.68 1.07-53.54zM92.59.02c.62 12.56.62 12.55 13.26 12.56 10.33 0 20.65.11 31 0 4-.05 5.53 1.43 5.43 5.49-.38 16 2.17 13.7-13.31 13.75-36.06.12-72.12 0-108.19 0-7.32 0-7.41 0-7.33-7.39.14-13-1.93-11.77 11.75-11.84 10.33-.05 20.65 0 31 0 6.4 0 6.61-.26 6.7-6.65 0-2 .11-3.93.17-5.9z"/></svg>' } })
 
-		.directive("iCKonTrophy", () => { return { restrict: "A", templateUrl: "./components/trophy.svg" } })
+		.directive("iCKonTrophy", () => { return { restrict: "A", template: '<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 76" viewBox="0 0 191 170.63"><path d="M150.58 0c.51 7.34-.13 14.65-.88 21.94a154.42 154.42 0 0 1-10 41.7c-5.39 13.51-13.18 25.63-21.25 37.61-3.92 5.82-7.76 11.71-10.26 18.34-.59 1.58-.35 3.72-1.68 4.67-1.57 1.13-3.74.41-5.65.43-4.78.06-9.57 0-14.36 0-1.32 0-2.36-.16-2.8-1.74-2.19-7.94-6.58-14.77-11.12-21.49-8.69-12.88-16.95-26-22.39-40.65a155.58 155.58 0 0 1-9.11-41.67 140.39 140.39 0 0 1-.74-19.17zM82.29 63.08c3.74-2 6.95-3.5 10-5.33a5.51 5.51 0 0 1 6.39 0c3.06 1.85 6.31 3.38 9.94 5.3-.81-4.66-1.47-8.75-2.27-12.82a3 3 0 0 1 1-3.07q3.32-3.06 6.53-6.23c.8-.8 2.42-1.58 2.14-2.49-.39-1.27-2.16-.6-3.31-.88a16.14 16.14 0 0 0-2.05-.34c-8.6-1-8.59-1-12.3-8.71-.87-1.83-1.47-3.82-3-5.62-1.93 4-3.78 7.7-5.54 11.46a3.13 3.13 0 0 1-2.82 2c-3.52.37-7 .9-10.54 1.39-.58.08-1.38 0-1.55.7-.13.56.54.88.91 1.24 2.55 2.47 5.09 5 7.71 7.35a3.3 3.3 0 0 1 1.1 3.48c-.9 3.96-1.53 7.98-2.34 12.57zM0 12.05l28.48-.15a1.52 1.52 0 0 1 1.76 1.64c.13 2.31.26 4.62.51 6.92.2 1.77-.55 2.33-2.27 2.33-4.48-.06-9 0-13.43 0-2 0-2.57.47-2 2.55 4.45 17.31 12.77 32 27.8 42.39a4.8 4.8 0 0 1 1.76 2.09c1.93 4.46 3.9 8.91 6.27 13.16a7.44 7.44 0 0 1 .4 1.23 5.16 5.16 0 0 1-3.13-.92c-18-8.65-30.42-22.59-38.53-40.6A93.43 93.43 0 0 1 .3 16.87a8.81 8.81 0 0 0-.3-1.08zM95.48 170.59c-10.34 0-20.67-.05-31 0-2.25 0-3.28-.55-3.08-3a63.52 63.52 0 0 0 0-6.71c0-1.33.48-2 1.85-2.07 11.85-.45 18.39-8.93 20.41-19.79.88-4.73.81-4.74 5.67-4.74h13.65c3.58 0 3.61 0 4.09 3.62a29 29 0 0 0 4.24 12.13c3.63 5.59 9 8.36 15.51 8.7 2.18.11 3.07.83 2.94 3a49.29 49.29 0 0 0 0 6c.13 2.12-.71 2.81-2.82 2.8-10.46.02-20.96.06-31.46.06zM141.81 84.09c2.4-5.08 4.67-10 6.86-15.05a4.63 4.63 0 0 1 1.81-1.73c14.78-10.6 23.17-25.29 27.45-42.66.46-1.86-.55-1.93-1.84-1.92-4.4 0-8.8-.07-13.2 0-2.08 0-3-.63-2.72-2.81s.38-4.15.48-6.22c.07-1.39.77-1.84 2.09-1.84 8.72 0 17.45.06 26.17 0 2.13 0 2.2 1.14 2 2.68a98.49 98.49 0 0 1-6.81 25.88c-6.62 15.74-16.7 28.77-31.17 38.13a46 46 0 0 1-11.12 5.54z"/></svg>' } })
 
-		.directive("iCKonUndo", () => { return { restrict: "A", templateUrl: "./components/undo.svg" } })
+		// .directive("iCKonUndo", () => { return { restrict: "A", template: "./components/undo.svg" } })
 
-		.directive("iCKonUploadOutline", () => { return { restrict: "A", templateUrl: "./components/upload-outline.svg" } })
+		// .directive("iCKonUploadOutline", () => { return { restrict: "A", template: "./components/upload-outline.svg" } })
 
-		.directive("iCKonVial", () => { return { restrict: "A", templateUrl: "./components/vial.svg" } })
+		// .directive("iCKonVial", () => { return { restrict: "A", template: "./components/vial.svg" } })
 
-		.directive("iCKonVideo", () => { return { restrict: "A", templateUrl: "./components/video.svg" } })
+		// .directive("iCKonVideo", () => { return { restrict: "A", template: "./components/video.svg" } })
 
-		.directive("iCKonView", () => { return { restrict: "A", templateUrl: "./components/view.svg" } })
+		// .directive("iCKonView", () => { return { restrict: "A", template: "./components/view.svg" } })
 
-		.directive("iCKonXls", () => { return { restrict: "A", templateUrl: "./components/xls.svg" } })
+		// .directive("iCKonXls", () => { return { restrict: "A", template: "./components/xls.svg" } })
 	return module.name
 }));
