@@ -1,7 +1,7 @@
 {
   "name": "ickons",
   "description": "",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "./src/components/ickons.js",
   "engines": {
     "node": ">=6.0.0"
